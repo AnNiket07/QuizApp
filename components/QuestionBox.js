@@ -13,7 +13,7 @@ const QuestionBox = ({question, options, selected}) => {
           key={index}
           style={styles.answerBtn}
           color="orange"
-          onClick={() => {
+          onPress={() => {
             setAnswer([text]);
             selected(text);
           }}
