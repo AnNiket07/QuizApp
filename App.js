@@ -6,13 +6,11 @@ import {
   StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
 } from 'react-native';
 import QuestionBox from './components/QuestionBox';
 import Result from './components/Result';
 import quizService from './quizService/index';
-// import "./assets/style.css"
 
 // import {
 //   Colors,
